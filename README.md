@@ -97,10 +97,3 @@ POST	/auth/register	Register a new user	AuthRequest (username, password)
 | `PUT`    | `/api/admin/users/{id}` | Update user details by ID        | `User`                 | `UserDTO`        |
 | `DELETE` | `/api/admin/users/{id}` | Delete a user by ID              | —                      |                  |
 
-## 📸 Screenshots
-
-
-```markdown
-![image](https://github.com/user-attachments/assets/d828f4f1-a758-4cc9-be70-b73cdf23db96)#
-![Screenshot 1]([screenshots/Screenshot (251).png](https://github.com/ManasSaini03/Employee-Management-System/blob/main/screenshots/Screenshot%20(251).png))
-![Screenshot 2][(screenshots/Screenshot (252).png)](https://github.com/ManasSaini03/Employee-Management-System/blob/main/screenshots/Screenshot%20(252).png)
