@@ -1,4 +1,4 @@
-# 🧑‍💼 Employee Management System (Spring Boot + Angular)
+![image](https://github.com/user-attachments/assets/d828f4f1-a758-4cc9-be70-b73cdf23db96)# 🧑‍💼 Employee Management System (Spring Boot + Angular)
 
 A backend **Employee Management System** with secure JWT authentication, role-based access (Admin/User).
 
@@ -99,8 +99,7 @@ POST	/auth/register	Register a new user	AuthRequest (username, password)
 
 ## 📸 Screenshots
 
-> (You can insert screenshots or screen recordings here using markdown like below.)
 
 ```markdown
-![Login Page](screenshots/login.png)
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Screenshot 1](screenshots/Screenshot (251).png)
+![Screenshot 2](screenshots/Screenshot (252).png)
