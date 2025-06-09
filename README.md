@@ -43,6 +43,33 @@ A backend **Employee Management System** with secure JWT authentication, role-ba
 4. Role-based access to `/api/admin/**` or `/api/user/**` APIs
 
 ---
+🧪 How to Use This Project :
+1) Use /api/auth/register to create a new user
+
+2) Use /api/auth/login to get a JWT token
+
+3) Click Authorize in Swagger and paste the JWT
+
+4) Now you can access protected endpoints.
+
+Sample Accounts -
+1) ADMIN account :
+    
+{
+    "username" : "admin",
+    "password" : "admin123"
+}
+2) User accounts - 
+
+{
+    "username" : "Test User 2",
+    "password" : "user123"
+}
+
+{
+    "username" : "Test User 2",
+    "password" : "user123"
+}
 
 ## 📸 Screenshots
 
