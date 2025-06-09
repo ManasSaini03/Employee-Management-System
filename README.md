@@ -71,6 +71,31 @@ Sample Accounts -
     "password" : "user123"
 }
 
+🔐 Auth Endpoints (/api/auth)
+These are public endpoints — no JWT token needed.
+
+Method	Endpoint	Description	Payload
+POST	/auth/login	Authenticate user & return JWT	AuthRequest (username, password)
+POST	/auth/register	Register a new user	AuthRequest (username, password)
+
+🧑‍💼 Admin Endpoints (/api/admin)
+
+| Method   | Endpoint                    | Description                       | Payload (Request Body) | Response DTO        |
+| -------- | --------------------------- | --------------------------------- | ---------------------- | ------------------- |
+| `POST`   | `/api/admin/employees`      | Create a new employee             | `Employee`             | `EmployeeDTO`       |
+| `GET`    | `/api/admin/employees`      | Get list of all employees         | —                      | `List<EmployeeDTO>` |
+| `GET`    | `/api/admin/employees/{id}` | Get employee by ID                | —                      | `EmployeeDTO`       |
+| `PUT`    | `/api/admin/employees/{id}` | Update an existing employee by ID | `Employee`             | `EmployeeDTO`       |
+| `DELETE` | `/api/admin/employees/{id}` | Delete an employee by ID          | —                      |                     |
+
+
+| Method   | Endpoint                | Description                      | Payload (Request Body) | Response DTO     |
+| -------- | ----------------------- | -------------------------------- | ---------------------- | ---------------- |
+| `GET`    | `/api/admin/users`      | Get list of all registered users | —                      | `List<UserDTO>`  |
+| `GET`    | `/api/admin/users/{id}` | Get user details by ID           | —                      | `UserDTO`        |
+| `PUT`    | `/api/admin/users/{id}` | Update user details by ID        | `User`                 | `UserDTO`        |
+| `DELETE` | `/api/admin/users/{id}` | Delete a user by ID              | —                      |                  |
+
 ## 📸 Screenshots
 
 > (You can insert screenshots or screen recordings here using markdown like below.)
