@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d828f4f1-a758-4cc9-be70-b73cdf23db96)# 🧑‍💼 Employee Management System (Spring Boot + Angular)
+# 🧑‍💼 Employee Management System (Spring Boot + Angular)
 
 A backend **Employee Management System** with secure JWT authentication, role-based access (Admin/User).
 
@@ -52,7 +52,7 @@ A backend **Employee Management System** with secure JWT authentication, role-ba
 
 4) Now you can access protected endpoints.
 
-Sample Accounts -
+# Sample Accounts -
 1) ADMIN account :
     
 {
@@ -72,14 +72,14 @@ Sample Accounts -
     "password" : "user123"
 }
 
-🔐 Auth Endpoints (/api/auth)
+#🔐 Auth Endpoints (/api/auth)
 These are public endpoints — no JWT token needed.
 
 Method	Endpoint	Description	Payload
 POST	/auth/login	Authenticate user & return JWT	AuthRequest (username, password)
 POST	/auth/register	Register a new user	AuthRequest (username, password)
 
-🧑‍💼 Admin Endpoints (/api/admin)
+ #🧑‍💼 Admin Endpoints (/api/admin)
 
 | Method   | Endpoint                    | Description                       | Payload (Request Body) | Response DTO        |
 | -------- | --------------------------- | --------------------------------- | ---------------------- | ------------------- |
@@ -101,5 +101,6 @@ POST	/auth/register	Register a new user	AuthRequest (username, password)
 
 
 ```markdown
-![Screenshot 1](screenshots/Screenshot (251).png)
-![Screenshot 2](screenshots/Screenshot (252).png)
+![image](https://github.com/user-attachments/assets/d828f4f1-a758-4cc9-be70-b73cdf23db96)#
+![Screenshot 1]([screenshots/Screenshot (251).png](https://github.com/ManasSaini03/Employee-Management-System/blob/main/screenshots/Screenshot%20(251).png))
+![Screenshot 2][(screenshots/Screenshot (252).png)](https://github.com/ManasSaini03/Employee-Management-System/blob/main/screenshots/Screenshot%20(252).png)
